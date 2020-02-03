@@ -1,0 +1,50 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "check hydrogen fuel",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "GetStationStatus",
+          "slots": [
+            {
+              "name": "stationName",
+              "type": "AMAZON.US_CITY"
+            }
+          ],
+          "samples": [
+            "check levels in {stationName}",
+            "check levels at {stationName}",
+            "check for hydrogen fuel in {stationName}",
+            "check for hydrogen fuel at {stationName}",
+            "check {stationName}",
+            "check fuel levels {stationName}",
+            "check fuel levels in {stationName}",
+            "check fuel levels at {stationName}",
+            "check fuel in {stationName}",
+            "check fuel at {stationName}",
+            "check {stationName} fuel status",
+            "how much fuel does {stationName} have"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "8"
+}

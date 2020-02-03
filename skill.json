@@ -1,0 +1,50 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Check CAFCP for available hydrogen fuel levels, both H35/H75",
+          "examplePhrases": [
+            "Alexa, check hydrogen fuel"
+          ],
+          "keywords": [
+            "hydrogen",
+            "fuel",
+            "california",
+            "hydrogen",
+            "station",
+            "hydrogen",
+            "fuel",
+            "cafcp"
+          ],
+          "name": "California Hydrogen Fuel Availability",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "description": "Simply ask Alexa \"check hydrogen fuel\" and supply your station name with the next prompts to retrieve available H70 and H35 fuel status and quantities available.  California only at this time.",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        }
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Utter \"Alexa, check hydrogen fuel\" then utter \"check Diamond Bar\".  You should receive fuel status availability at the Diamond Bar, CA location.",
+      "category": "CONNECTED_CAR",
+      "distributionCountries": [
+        "US"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:250933025138:function:3b03ee52-ae9c-452f-b05c-34971956e5cd:Release_0"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
